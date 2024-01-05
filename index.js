@@ -20,7 +20,7 @@ app.get("/",function(req,res){
             
             res.write("<p>the weather now is: " +wd+"<p>");  
             res.write("<img src="+imgicon +">");
-            res.write("<h1>dragt el 7rara y zeinab : "+temp+ " celcius. </h1>");
+            res.write("<h1>dragt el 7rara y zeinab : "+temp+ "</h1>");
             res.send();
             
     })
